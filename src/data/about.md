@@ -2,7 +2,7 @@
 
 I am an undergraduate student at [Cornell Engineering](https://www.engineering.cornell.edu/) majoring in [Computer Science](https://www.cs.cornell.edu/) and minoring in [business](https://business.cornell.edu/programs/undergraduate/minors/business-engineers/).
 
-In my free time, I love to try new things, work out, hang out with friends, and watch TV shows.
+In my free time, I love trying new things, working out, speed cubing, seeing friends, reading, and watching TV shows.
 
 # **News**
 
