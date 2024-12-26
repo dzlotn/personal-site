@@ -30,9 +30,9 @@ const SideBar = () => (
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? (
-            <Link to="/resume" className="button">
-              Learn More
+          {window.location.pathname.includes('/about') ? (
+            <Link to="/projects" className="button">
+              My Projects
             </Link>
           ) : (
             <Link to="/about" className="button">
@@ -46,7 +46,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Daniel Zlotnick <Link to="/">mldangelo.com</Link>.
+        &copy; Daniel Zlotnick
       </p>
     </section>
   </section>
