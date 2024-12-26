@@ -22,11 +22,11 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Daniel Zlotnick, a Computer Science student
-        at Cornell University with a passion for solving complex problems
+        Hi, I&apos;m Daniel Zlotnick, a student
+        at <a href="https://www.cornell.edu/">Cornell University</a> with a passion for solving complex problems
         and leveraging technology to make a real-world impact.
-        I&apos;m currently pursuing a major in Computer Science and
-        a minor in Business.
+        I&apos;m currently pursuing a major in <a href="https://www.cs.cornell.edu/">Computer Science</a> and
+        a minor in <a href="https://business.cornell.edu/programs/undergraduate/minors/business-engineers/">Business</a>.
       </p>
       <ul className="actions">
         <li>

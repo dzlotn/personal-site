@@ -30,7 +30,7 @@ const Index = () => (
       </p>
       <p>
         {' '}
-        Source available here{' '}
+        Source available{' '}
         <a href="https://github.com/mldangelo/personal-site">here</a>.
       </p>
     </article>

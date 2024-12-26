@@ -1,8 +1,9 @@
 # Intro
 
-I am the co-founder and CTO of [Promptfoo](https://promptfoo.dev), where we're building open-source tools to evaluate, find, and fix vulnerabilities in LLMs. Before Promptfoo, I was the VP of Engineering at [SmileID](https://www.usesmileid.com), where I led the development of tools that have helped over 170 million people in Africa gain access to financial services. I also co-founded [Arthena](https://arthena.com) and [Matroid](https://matroid.com).
+I am an undergraduate student at [Cornell Engineering](https://www.engineering.cornell.edu/) majoring in [Computer Science](https://www.cs.cornell.edu/) and minoring in [business](https://business.cornell.edu/programs/undergraduate/minors/business-engineers/).
 
-In my spare time, I enjoy investing in people and ideas through a [small venture fund](https://skepticalinvestments.biz), focusing on projects with high social impact. If you think I can be helpful to you or your cause, or if you're interested in collaborating, feel free to get in touch.
+
+In my free time, I love to try new foods, work out, and watch movies. 
 
 # Some History
 
