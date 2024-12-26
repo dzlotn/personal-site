@@ -15,16 +15,20 @@ const About = () => {
     });
   });
 
-  //   \n
+  const count = markdown
+    .split(/\s+/)
+    .map((s) => s.replace(/\W/g, ''))
+    .filter((s) => s.length).length;
 
   return (
-    <Main title="About" description="Learn about Daniel Zlotnick">
+    <Main title="About" description="Learn about Daniel Zlot">
       <article className="post markdown" id="about">
         <header>
           <div className="title">
             <h2>
               <Link to="/about">About Me</Link>
             </h2>
+            <p>(in about {count} words)</p>
           </div>
         </header>
         <Markdown>{markdown}</Markdown>
