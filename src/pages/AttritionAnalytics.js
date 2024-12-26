@@ -22,7 +22,7 @@ const About = () => {
         <header>
           <div className="title">
             <h2>
-              <Link to="/about">Attrition Analytics</Link>
+              <Link to="/AttritionAnalytics">Attrition Analytics</Link>
             </h2>
           </div>
         </header>

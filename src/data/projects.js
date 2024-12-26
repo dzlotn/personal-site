@@ -17,7 +17,7 @@ const data = [
     subtitle: 'Full stack web application',
     link: '',
     image: '/images/projects/CAMPUSQUEST.png',
-    date: '2015-09-20',
+    date: '2024-07-25',
     desc:
       'CampusQuest is a full stack web platform that maps the journey of seniors'
       + 'graduating from high school,'
@@ -25,15 +25,14 @@ const data = [
 
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    slug: 'Fortress',
+    title: 'Fortress',
+    subtitle: 'Fortress is a sophisticated suite designed for generating, analyzing, and securely storing passwords.',
+    link: '',
+    image: '/images/projects/fortress.png',
+    date: '2024-04-28',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
   },
   {
     title: 'Cat Detector',

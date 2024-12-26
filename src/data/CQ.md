@@ -6,4 +6,4 @@ CampusQuest analyzes the path of seniors from your high school going to college.
 [Website](https://cajs.vercel.app/) | [Github](https://github.com/dzlotn/CampusQuest)
 
 # Technologies Used:
-React.js, Tailwind, Next.js, Yahoo Image API, College Scorecard API, Local Storage, Vercel
+Javascript, HTML, CSS, SQL, Regex, React.js, Tailwind, Next.js, Yahoo Image API, College Scorecard API, Local Storage, Vercel

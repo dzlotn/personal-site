@@ -15,6 +15,8 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const AttritionAnalytics = lazy(() => import('./pages/AttritionAnalytics'));
 const CampusQuest = lazy(() => import('./pages/CampusQuest'));
+const Fortress = lazy(() => import('./pages/Fortress'));
+
 // const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
@@ -27,6 +29,7 @@ const App = () => (
         <Route path="/projects/AttritionAnalytics" element={<AttritionAnalytics />} />
         {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="/projects/CampusQuest" element={<CampusQuest />} />
+        <Route path="/projects/Fortress" element={<Fortress />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
