@@ -20,6 +20,7 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
+
       <h2>About</h2>
       <p>
         Hi, I&apos;m Daniel Zlotnick, a student
@@ -28,6 +29,8 @@ const SideBar = () => (
         I&apos;m currently pursuing a major in <a href="https://www.cs.cornell.edu/">Computer Science</a> and
         a minor in <a href="https://business.cornell.edu/programs/undergraduate/minors/business-engineers/">Business</a>.
       </p>
+      {/* <img src={`${PUBLIC_URL}/images/file.jpg`} alt="" /> */}
+
       <ul className="actions">
         <li>
           {window.location.pathname.includes('/about') ? (

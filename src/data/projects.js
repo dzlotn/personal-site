@@ -1,12 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
+    slug: 'AttritionAnalytics',
+    title: 'Attrition Analytics',
+    subtitle: 'Google Advanced Data Analytics Certification',
+    link: 'https://github.com/dzlotn/Google-Data-Analytics-Capstone-Project',
     image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    date: '2024-08-05',
     desc:
-      'Built for a social impact hackathon. '
+      'Built for the Google Advanced Data Analytics Certification'
       + 'NearestDollar connected to your bank accounts, credit cards, '
       + 'or debit cards and rounded up your purchases to donate the balance to '
       + 'the charity of your choice.',

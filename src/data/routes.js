@@ -20,6 +20,7 @@ const routes = [
     label: 'Contact',
     path: '/contact',
   },
+
 ];
 
 export default routes;
