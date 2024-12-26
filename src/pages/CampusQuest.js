@@ -27,7 +27,7 @@ const About = () => {
           </div>
         </header>
         <div className="about-content">
-          <img src={aboutImage} alt="About Me" className="about-image" style={{ maxWidth: '100%', height: 'auto' }} />
+          <img src={aboutImage} alt="" className="about-image" style={{ maxWidth: '100%', height: 'auto' }} />
           <div className="markdown-content">
             <Markdown>{markdown}</Markdown>
           </div>
