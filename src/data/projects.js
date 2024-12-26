@@ -5,18 +5,17 @@ const data = [
     title: 'Attrition Analytics',
     subtitle: 'Google Advanced Data Analytics Certification',
     link: 'https://github.com/dzlotn/Google-Data-Analytics-Capstone-Project',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/attritionanalytics.jpg',
     date: '2024-08-05',
     desc:
-      'Built for the Google Advanced Data Analytics Certification'
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built for the Google Advanced Data Analytics Certification. '
+      + 'Attrition Analytics is a machine learning algorithm to predict employee turnover',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
+    slug: 'CampusQuest',
+    title: 'CampusQuest',
+    subtitle: 'Full stack web application built with React, Next.js, and Tailwind.css',
+    link: '',
     image: '/images/projects/harvest.jpg',
     date: '2015-09-20',
     desc:
