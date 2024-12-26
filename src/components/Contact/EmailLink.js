@@ -1,18 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
-// Validates the first half of an email address.
-const validateText = (text) => {
-  // NOTE: Passes RFC 5322 but not tested on google's standard.
-  // eslint-disable-next-line no-useless-escape
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
-  return re.test(text) || text.length === 0;
+// Validates the email address format.
+const validateEmail = (email) => {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email) || email.length === 0;
 };
 
-const messages = [
-  'daniel.zlotnick5@gmail.com',
-
-];
+const messages = ['daniel.zlotnick5@gmail.com'];
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
@@ -28,18 +23,18 @@ const useInterval = (callback, delay) => {
       }, delay);
       return () => clearInterval(id);
     }
-    return () => {}; // pass linter
+    return () => {};
   }, [delay]);
 };
 
 const EmailLink = ({ loopMessage }) => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
+  const hold = 50; // Ticks to wait after message is complete before rendering the next message.
+  const delay = 50; // Tick length in milliseconds.
 
-  const [idx, updateIter] = useState(0); // points to current message
+  const [idx, updateIdx] = useState(0); // Points to the current message.
   const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(0); // points to current char
-  const [isActive, setIsActive] = useState(true); // disable when all messages are printed
+  const [char, updateChar] = useState(0); // Points to the current character.
+  const [isActive, setIsActive] = useState(true); // Disable when all messages are printed.
 
   useInterval(
     () => {
@@ -51,14 +46,14 @@ const EmailLink = ({ loopMessage }) => {
       }
       if (newIdx === messages.length) {
         if (loopMessage) {
-          updateIter(0);
+          updateIdx(0);
           updateChar(0);
         } else {
           setIsActive(false);
         }
       } else {
         updateMessage(messages[newIdx].slice(0, newChar));
-        updateIter(newIdx);
+        updateIdx(newIdx);
         updateChar(newChar + 1);
       }
     },
@@ -68,11 +63,11 @@ const EmailLink = ({ loopMessage }) => {
   return (
     <div
       className="inline-container"
-      style={validateText(message) ? {} : { color: 'red' }}
+      style={validateEmail(message) ? {} : { color: 'red' }}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
+      <a href={validateEmail(message) ? `mailto:${message}` : ''}>
         <span>{message}</span>
       </a>
     </div>
