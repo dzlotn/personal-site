@@ -41,8 +41,8 @@ const data = [
     image: '/images/projects/attritionanalytics.jpg',
     date: '2024-08-05',
     desc:
-      'Built for the Google Advanced Data Analytics Certification. '
-      + 'Attrition Analytics is a machine learning algorithm to predict employee turnover',
+      'Attrition Analytics is a machine learning algorithm to predict employee'
+      + ' turnover that I built for the Google Advanced Data Analytics Certification',
   },
 ];
 
