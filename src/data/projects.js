@@ -29,7 +29,7 @@ const data = [
     title: 'Fortress',
     subtitle: 'Fortress is a sophisticated suite designed for generating, analyzing, and securely storing passwords.',
     link: '',
-    image: '/images/projects/CAMPUSQUEST.png',
+    image: '/images/projects/Fortress.png',
     date: '2024-04-28',
     desc:
       'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
