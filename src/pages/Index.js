@@ -17,7 +17,7 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
+            A sleek, responsive, statically-generated react application
             written with modern Javascript.
           </p>
         </div>
@@ -25,14 +25,12 @@ const Index = () => (
       <p>
         {' '}
         Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '},
-        <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
+        <Link to="/about">about me</Link> or you can check out my{' '}
+        <Link to="/projects">projects</Link>.
       </p>
       <p>
         {' '}
-        Source available{' '}
+        Source available here{' '}
         <a href="https://github.com/mldangelo/personal-site">here</a>.
       </p>
     </article>

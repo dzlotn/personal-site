@@ -22,13 +22,11 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Daniel. I am a{' '}
-        <a href="https://www.cs.cornell.edu/">Cornell Undergraduate</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Daniel Zlotnick, a Computer Science student
+        at Cornell University with a passion for solving complex problems
+        and leveraging technology to make a real-world impact.
+        I&apos;m currently pursuing a major in Computer Science and
+        a minor in Business.
       </p>
       <ul className="actions">
         <li>
