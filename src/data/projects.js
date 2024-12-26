@@ -29,7 +29,7 @@ const data = [
     desc:
       'CampusQuest is a full stack web platform that maps the journey of seniors '
       + 'graduating from high school,'
-      + ' offering analytics on the data and comprehensive information about colleges.',
+      + ' offering analytics on the data and comprehensive information about colleges',
 
   },
   {
