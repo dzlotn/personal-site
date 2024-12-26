@@ -28,11 +28,11 @@ const Index = () => (
         <Link to="/about">about me</Link> or you can check out my{' '}
         <Link to="/projects">projects</Link>.
       </p>
-      <p>
+      {/* <p>
         {' '}
         Source available{' '}
         <a href="https://github.com/mldangelo/personal-site">here</a>.
-      </p>
+      </p> */}
     </article>
   </Main>
 );
