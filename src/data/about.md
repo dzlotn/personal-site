@@ -22,5 +22,5 @@ In my free time, I love trying new things, working out, speed cubing, seeing fri
 
 
 **2022**
-- Conducted research on minimizing head injury severity from falls. Presented in multiple state and national competitions [Paper](https://drive.google.com/file/d/1y4YNDAyWeJ02X8ZVRsGrgaTDKFc2r88H/view?usp=sharing) | [Poster](https://drive.google.com/file/d/1E__mxCfKJjP5b3twAkSi8eGrBDWYmOS3/view?usp=sharing)
+- Conducted novel research on minimizing head injury severity from falls. Presented in multiple state and national competitions [Paper](https://drive.google.com/file/d/1y4YNDAyWeJ02X8ZVRsGrgaTDKFc2r88H/view?usp=sharing) | [Poster](https://drive.google.com/file/d/1E__mxCfKJjP5b3twAkSi8eGrBDWYmOS3/view?usp=sharing)
 
