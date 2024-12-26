@@ -23,7 +23,7 @@ const About = () => {
         <header>
           <div className="title">
             <h2>
-              <Link to="/TremorTrackr">TremorTrackr</Link>
+              <Link to="/projects/TremorTrackr">TremorTrackr</Link>
             </h2>
           </div>
         </header>

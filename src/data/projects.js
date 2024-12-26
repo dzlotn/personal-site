@@ -1,15 +1,23 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    slug: 'AttritionAnalytics',
-    title: 'Attrition Analytics',
-    subtitle: 'Google Advanced Data Analytics Certification',
-    link: 'https://github.com/dzlotn/Google-Data-Analytics-Capstone-Project',
-    image: '/images/projects/attritionanalytics.jpg',
-    date: '2024-08-05',
+    slug: 'TremorTrackr',
+    title: 'TremorTrackr',
+    subtitle: 'Created a wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
+    image: '/images/projects/tremortrackr.png',
+    date: '2023-05-01',
     desc:
-      'Built for the Google Advanced Data Analytics Certification. '
-      + 'Attrition Analytics is a machine learning algorithm to predict employee turnover',
+      'A wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
+  },
+  {
+    slug: 'Fortress',
+    title: 'Fortress',
+    subtitle: 'Fortress is a sophisticated suite designed for generating, analyzing, and securely storing passwords.',
+    link: '',
+    image: '/images/projects/Fortress.png',
+    date: '2024-04-28',
+    desc:
+      'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
   },
   {
     slug: 'CampusQuest',
@@ -25,23 +33,16 @@ const data = [
 
   },
   {
-    slug: 'Fortress',
-    title: 'Fortress',
-    subtitle: 'Fortress is a sophisticated suite designed for generating, analyzing, and securely storing passwords.',
-    link: '',
-    image: '/images/projects/Fortress.png',
-    date: '2024-04-28',
+
+    slug: 'AttritionAnalytics',
+    title: 'Attrition Analytics',
+    subtitle: 'Google Advanced Data Analytics Certification',
+    link: 'https://github.com/dzlotn/Google-Data-Analytics-Capstone-Project',
+    image: '/images/projects/attritionanalytics.jpg',
+    date: '2024-08-05',
     desc:
-      'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
-  },
-  {
-    slug: 'TremorTrackr',
-    title: 'TremorTrackr',
-    subtitle: 'Created a wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
-    image: '/images/projects/tremortrackr.png',
-    date: '2023-05-01',
-    desc:
-      'A wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
+      'Built for the Google Advanced Data Analytics Certification. '
+      + 'Attrition Analytics is a machine learning algorithm to predict employee turnover',
   },
 ];
 
