@@ -13,7 +13,7 @@ const data = [
   },
   {
     slug: 'CampusQuest',
-    title: 'CampusQuest',
+    title: 'Campus Quest',
     subtitle: 'Full stack web application',
     link: '',
     image: '/images/projects/CAMPUSQUEST.png',
@@ -35,14 +35,13 @@ const data = [
       'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    slug: 'TremorTrackr',
+    title: 'TremorTrackr',
+    subtitle: 'Created a wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
+    image: '/images/projects/tremortrackr.png',
+    date: '2023-05-01',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'A wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
   },
 ];
 

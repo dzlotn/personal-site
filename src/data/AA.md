@@ -17,4 +17,4 @@ I utilized two model approaches for the problem. First, I used binomial logistic
 
 # Technologies Used:
 
-Python, Numpy, Pandas, Seaborn, XGBoost, Sci-Py, Pickle, Tableau
+Python, Numpy, Pandas, Matplotlib, Seaborn, XGBoost, Sci-Py, Pickle, Tableau
