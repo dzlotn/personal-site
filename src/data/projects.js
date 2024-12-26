@@ -19,9 +19,9 @@ const data = [
     image: '/images/projects/CAMPUSQUEST.png',
     date: '2024-07-25',
     desc:
-      'CampusQuest is a full stack web platform that maps the journey of seniors'
+      'CampusQuest is a full stack web platform that maps the journey of seniors '
       + 'graduating from high school,'
-      + 'offering analytics on the data and comprehensive information about colleges.',
+      + ' offering analytics on the data and comprehensive information about colleges.',
 
   },
   {
