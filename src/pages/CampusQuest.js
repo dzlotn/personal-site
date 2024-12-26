@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
-import aboutImage from '../components/Projects/ProjectIMG/salifortmotors.jpg';
+import aboutImage from '../components/Projects/ProjectIMG/campusquestdiscover.jpg';
 
 const About = () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    import('../data/AA.md').then((res) => {
+    import('../data/CQ.md').then((res) => {
       fetch(res.default)
         .then((r) => r.text())
         .then(setMarkdown);
@@ -22,12 +22,12 @@ const About = () => {
         <header>
           <div className="title">
             <h2>
-              <Link to="/about">Attrition Analytics</Link>
+              <Link to="/projects/CampusQuest">Campus Quest</Link>
             </h2>
           </div>
         </header>
         <div className="about-content">
-          <img src={aboutImage} alt="About Me" className="about-image" style={{ maxWidth: '100%', height: 'auto', width: '300px' }} />
+          <img src={aboutImage} alt="About Me" className="about-image" style={{ maxWidth: '100%', height: 'auto' }} />
           <div className="markdown-content">
             <Markdown>{markdown}</Markdown>
           </div>

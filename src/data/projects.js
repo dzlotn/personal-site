@@ -14,14 +14,15 @@ const data = [
   {
     slug: 'CampusQuest',
     title: 'CampusQuest',
-    subtitle: 'Full stack web application built with React, Next.js, and Tailwind.css',
+    subtitle: 'Full stack web application',
     link: '',
-    image: '/images/projects/harvest.jpg',
+    image: '/images/projects/CAMPUSQUEST.png',
     date: '2015-09-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'CampusQuest is a full stack web platform that maps the journey of seniors'
+      + 'graduating from high school,'
+      + 'offering analytics on the data and comprehensive information about colleges.',
+
   },
   {
     title: 'Space Potato',
