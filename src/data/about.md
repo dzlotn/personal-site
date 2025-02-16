@@ -7,6 +7,7 @@ In my free time, I love trying new things, working out, speed cubing, seeing fri
 # **News**
 **2025**
 - Became a Software Engineering Intern at the [Raw Earth Foundation](https://rawearthfoundation.org/)
+- Became a technology implementation associate for [Cornell Data Strategy](https://cornelldatastrategy.com/)
 
 **2024**
 - Joined the software subteam for the [Cornell Autonomous Underwater Vehicle](https://cuauv.org/) project team
