@@ -5,6 +5,8 @@ I am an undergraduate student at [Cornell Engineering](https://www.engineering.c
 In my free time, I love trying new things, working out, speed cubing, seeing friends, reading, and watching TV shows.
 
 # **News**
+**2025**
+- Became a Software Engineering Intern at the [Raw Earth Foundation](https://rawearthfoundation.org/)
 
 **2024**
 - Joined the software subteam for the [Cornell Autonomous Underwater Vehicle](https://cuauv.org/) project team
