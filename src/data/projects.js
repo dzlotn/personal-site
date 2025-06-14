@@ -7,17 +7,7 @@ const data = [
     image: '/images/projects/tremortrackr.png',
     date: '2023-05-01',
     desc:
-      'A wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
-  },
-  {
-    slug: 'Fortress',
-    title: 'Fortress',
-    subtitle: 'Fortress is a sophisticated suite designed for generating, analyzing, and securely storing passwords.',
-    link: '',
-    image: '/images/projects/Fortress.png',
-    date: '2024-04-28',
-    desc:
-      'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
+      'TremorTrackr is a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
   },
   {
     slug: 'ProjectNexus',
@@ -28,6 +18,16 @@ const data = [
     date: '2024-03-15',
     desc:
       'NexusRTS is a trucking-optimized real-time tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
+  },
+  {
+    slug: 'Fortress',
+    title: 'Fortress',
+    subtitle: 'Fortress is a sophisticated suite designed for generating, analyzing, and securely storing passwords.',
+    link: '',
+    image: '/images/projects/Fortress.png',
+    date: '2024-04-28',
+    desc:
+      'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
   },
   {
     slug: 'AttritionAnalytics',
