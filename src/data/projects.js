@@ -1,6 +1,16 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    slug: 'ProjectNexus',
+    title: 'NexusRTS',
+    subtitle: 'Freight disruption and route optimization system',
+    link: '',
+    image: '/images/projects/ProjectNexus.png',
+    date: '2025-05-08',
+    desc:
+      'NexusRTS is a trucking-optimized real-time tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
+  },
+  {
     slug: 'TremorTrackr',
     title: 'TremorTrackr',
     subtitle: 'Created a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
@@ -9,16 +19,7 @@ const data = [
     desc:
       'TremorTrackr is a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
   },
-  {
-    slug: 'ProjectNexus',
-    title: 'Project Nexus',
-    subtitle: 'Freight disruption and route optimization system',
-    link: '',
-    image: '/images/projects/ProjectNexus.png',
-    date: '2024-03-15',
-    desc:
-      'NexusRTS is a trucking-optimized real-time tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
-  },
+
   {
     slug: 'Fortress',
     title: 'Fortress',
