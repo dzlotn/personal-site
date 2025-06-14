@@ -27,7 +27,7 @@ const data = [
     image: '/images/projects/ProjectNexus.png',
     date: '2024-03-15',
     desc:
-      'NexusRTS is a trucking-optimized real-time forecasting tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
+      'NexusRTS is a trucking-optimized real-time tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
   },
   {
     slug: 'AttritionAnalytics',
@@ -37,8 +37,7 @@ const data = [
     image: '/images/projects/attritionanalytics.jpg',
     date: '2024-08-05',
     desc:
-      'Attrition Analytics is a machine learning algorithm to predict employee'
-      + ' turnover that I built for the Google Advanced Data Analytics Certification',
+      'Attrition Analytics is a ML algorithm to predict employee turnover that I built for the Google Advanced Data Analytics Certification',
   },
 ];
 
