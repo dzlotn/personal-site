@@ -17,6 +17,7 @@ const AttritionAnalytics = lazy(() => import('./pages/AttritionAnalytics'));
 const CampusQuest = lazy(() => import('./pages/CampusQuest'));
 const Fortress = lazy(() => import('./pages/Fortress'));
 const TremorTrackr = lazy(() => import('./pages/TremorTrackr'));
+const ProjectNexus = lazy(() => import('./pages/ProjectNexus'));
 
 // const Stats = lazy(() => import('./pages/Stats'));
 
@@ -32,6 +33,7 @@ const App = () => (
         <Route path="/projects/CampusQuest" element={<CampusQuest />} />
         <Route path="/projects/TremorTrackr" element={<TremorTrackr />} />
         <Route path="/projects/Fortress" element={<Fortress />} />
+        <Route path="/projects/ProjectNexus" element={<ProjectNexus />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
