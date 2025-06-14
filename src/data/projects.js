@@ -20,18 +20,6 @@ const data = [
       'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
   },
   {
-    slug: 'CampusQuest',
-    title: 'Campus Quest',
-    subtitle: 'Full stack web application',
-    link: '',
-    image: '/images/projects/CAMPUSQUEST.png',
-    date: '2024-07-25',
-    desc:
-      'CampusQuest is a full stack web platform that maps the journey of seniors '
-      + 'graduating from high school,'
-      + ' offering analytics on the data and comprehensive information about colleges',
-  },
-  {
     slug: 'ProjectNexus',
     title: 'Project Nexus',
     subtitle: 'Freight disruption and route optimization system',
