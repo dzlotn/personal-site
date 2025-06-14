@@ -27,7 +27,7 @@ const data = [
     image: '/images/projects/ProjectNexus.png',
     date: '2024-03-15',
     desc:
-      'A real-time forecasting tool that predicts freight slowdowns, optimizes routes, and estimates costs due to local disruptions',
+      'NexusRTS is a trucking-optimized real-time forecasting tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
   },
   {
     slug: 'AttritionAnalytics',

@@ -22,7 +22,7 @@ const About = () => {
         <header>
           <div className="title">
             <h2>
-              <Link to="/projects/ProjectNexus">Project Nexus</Link>
+              <Link to="/projects/ProjectNexus">NexusRTS</Link>
             </h2>
           </div>
         </header>
