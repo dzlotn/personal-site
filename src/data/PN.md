@@ -13,4 +13,4 @@ Project Nexus is a sophisticated freight disruption and route optimization syste
 [Github](https://github.com/dzlotn/Project-Nexus)
 
 # Technologies Used:
-Python, FastAPI, React.js, TypeScript, TensorFlow, Pandas, NumPy, Scikit-learn, D3.js, PostgreSQL, Redis, Docker, AWS Lambda, Google Maps API, OpenWeather API
+Flask, React.js, TypeScript, Pandas, NumPy, StatsModels (SARIMAX), GeoPandas, Google Maps API, Tailwind CSS, Vite, Radix UI, Python-dotenv, Gunicorn, OpenWeather API, NREL Fuel Station API, Joblib, Parquet
