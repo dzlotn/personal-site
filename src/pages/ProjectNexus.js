@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
-import mainMedia from '../components/Projects/ProjectIMG/attritionanalytics.jpg';
-
+import mainMedia from '../components/Projects/ProjectIMG/ProjectNexus.png';
+``
 const About = () => {
   const [markdown, setMarkdown] = useState('');
 

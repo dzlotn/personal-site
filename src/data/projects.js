@@ -3,11 +3,11 @@ const data = [
   {
     slug: 'TremorTrackr',
     title: 'TremorTrackr',
-    subtitle: 'Created a wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
+    subtitle: 'Created a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
     image: '/images/projects/tremortrackr.png',
     date: '2023-05-01',
     desc:
-      'A wearable sensor to identify and monitor tremors for patients with Parkinson’s disease',
+      'A wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
   },
   {
     slug: 'Fortress',
@@ -36,7 +36,7 @@ const data = [
     title: 'Project Nexus',
     subtitle: 'Freight disruption and route optimization system',
     link: '',
-    image: '/images/projects/attritionanalytics.jpg',
+    image: '/images/projects/ProjectNexus.png',
     date: '2024-03-15',
     desc:
       'A real-time forecasting tool that predicts freight slowdowns, optimizes routes, and estimates costs due to local disruptions',
