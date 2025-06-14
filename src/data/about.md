@@ -6,6 +6,8 @@ In my free time, I love trying new things, working out, speed cubing, seeing fri
 
 # **News**
 **2025**
+- Began a Software Engineering internship at [Verizon](https://www.verizon.com/) in the Application Security Risk Management organization
+- Promoted to Project Lead within the Technology Implementation division at [Cornell Data Strategy](https://cornelldatastrategy.com/)
 - Became a Software Engineering Intern at the [Raw Earth Foundation](https://rawearthfoundation.org/)
 - Became a technology implementation associate for [Cornell Data Strategy](https://cornelldatastrategy.com/)
 
