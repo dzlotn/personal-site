@@ -8,6 +8,45 @@
 
 #main {
   @include vendor("flex-grow", "1");
-  -ms-flex: 1;
+  @include vendor("flex-shrink", "1");
+  @include vendor("order", "1");
   width: 100%;
+  margin-right: _size(section-spacing);
+
+  > * {
+    margin-top: 0;
+    margin-bottom: _size(section-spacing);
+  }
+
+  @include breakpoint("<=large") {
+    margin-right: _size(section-spacing) * 0.75;
+  }
+
+  @include breakpoint("<=medium") {
+    margin-right: 0;
+    margin-bottom: _size(section-spacing);
+  }
+}
+
+#wrapper {
+  @include vendor("display", "flex");
+  @include vendor("flex-direction", "row");
+  @include vendor("flex-grow", "0");
+  @include vendor("flex-shrink", "0");
+  @include vendor("align-items", "stretch");
+  position: relative;
+  margin: 0 auto;
+  padding: 3em 0;
+  width: _size(wrapper);
+  z-index: 2;
+
+  @include breakpoint("<=large") {
+    padding: 2em 0;
+    width: 100%;
+  }
+
+  @include breakpoint("<=medium") {
+    padding: 1em 0;
+    @include vendor("flex-direction", "column");
+  }
 }
