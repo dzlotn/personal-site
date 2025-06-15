@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import Analytics from '../Analytics';
-import Navigation from './Navigation';
-import Main from '../layouts/Main';
 import { author } from '../../data/authors/default';
 import { main } from '../../data/main';
 import PropTypes from 'prop-types';
@@ -26,64 +23,83 @@ const SideBar = (props) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const AboutContent = () => (
-    <>
-      <section id="intro">
-        <Link to="/" className="logo">
-          <img src={`${PUBLIC_URL}/images/file.jpg`} alt="" />
-        </Link>
-        <header>
-          <h2>Daniel Zlotnick</h2>
-          <p>
-            <a href="mailto:daniel.zlotnick5@gmail.com">daniel.zlotnick5@gmail.com</a>
-          </p>
-        </header>
-      </section>
-
-      <section className="blurb">
-        <h2>About</h2>
-        <p>
-          Hi, I&apos;m Daniel Zlotnick, a student
-          at <a href="https://www.cornell.edu/">Cornell University</a> with a passion for solving complex problems
-          and harnessing technology to create meaningful change.
-          I&apos;m currently pursuing a major in <a href="https://www.cs.cornell.edu/">Computer Science</a> and
-          a minor in <a href="https://business.cornell.edu/programs/undergraduate/minors/business-engineers/">Business</a>.
-        </p>
-        {/* <img src={`${PUBLIC_URL}/images/file.jpg`} alt="" /> */}
-
-        <ul className="actions">
-          <li>
-            {window.location.pathname.includes('/about') ? (
-              <Link to="/projects" className="button">
-                My Projects
-              </Link>
-            ) : (
-              <Link to="/about" className="button">
-                About Me
-              </Link>
-            )}
-          </li>
-        </ul>
-      </section>
-
-      <section id="footer">
-        <ContactIcons />
-        <p className="copyright">
-          &copy; Daniel Zlotnick
-        </p>
-      </section>
-    </>
-  );
-
-  if (isMobile) {
-    return null; // Don't render sidebar on mobile
-  }
-
   return (
-    <section id="sidebar">
-      <AboutContent />
-    </section>
+    <HelmetProvider>
+      <Helmet
+        title={props.title}
+        meta={[
+          { name: 'description', content: main.description },
+          { name: 'keywords', content: main.keywords },
+        ]}
+      >
+        <html lang="en" />
+      </Helmet>
+      <div id="wrapper">
+        <div id="main">{props.children}</div>
+        {props.fullPage ? null : (
+          <div id="sidebar">
+            <div className="inner">
+              <section id="intro">
+                <Link to="/" className="logo">
+                  <img src={author.photo} alt="" />
+                </Link>
+                <header>
+                  <h2>{author.name}</h2>
+                  <p>
+                    <a href={`mailto:${author.email}`}>{author.email}</a>
+                  </p>
+                </header>
+              </section>
+              {(!isMobile || !isAboutPage) && (
+                <section className="blurb">
+                  <h2>About</h2>
+                  <p>{author.minibio}</p>
+                  <ul className="actions">
+                    <li>
+                      {!props.fullPage ? (
+                        <Link to="/about" className="button">
+                          Learn More
+                        </Link>
+                      ) : (
+                        <Link to="/" className="button">
+                          Back to Home
+                        </Link>
+                      )}
+                    </li>
+                  </ul>
+                </section>
+              )}
+              <section id="footer">
+                <ul className="icons">
+                  {author.social.map((soc) => (
+                    <li key={soc.label}>
+                      <a
+                        href={soc.url}
+                        className={`icon ${soc.icon}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="label">{soc.label}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <p className="copyright">
+                  &copy; {author.name} <Link to="/">{main.url}</Link>.
+                </p>
+              </section>
+            </div>
+          </div>
+        )}
+      </div>
+    </HelmetProvider>
   );
+};
+
+SideBar.propTypes = {
+  children: PropTypes.node,
+  fullPage: PropTypes.bool,
+  title: PropTypes.string,
 };
 
 export default SideBar;
