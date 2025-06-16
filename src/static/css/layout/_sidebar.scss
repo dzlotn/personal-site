@@ -30,4 +30,10 @@
     padding: _size(section-spacing) 0 0 0;
     width: 100%;
   }
+
+  @include breakpoint(small) {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
 }
