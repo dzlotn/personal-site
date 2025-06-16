@@ -6,10 +6,10 @@ In my free time, I love trying new things, working out, speed cubing, seeing fri
 
 # **News**
 **2025**
-- Began a Software Engineering internship at [Verizon](https://www.verizon.com/) in the Application Security Risk Management organization
+- Started a Software Engineering internship at [Verizon](https://www.verizon.com/) in the Application Security Risk Management organization
 - Promoted to Project Lead within the Technology Implementation division at [Cornell Data Strategy](https://cornelldatastrategy.com/)
-- Became a Software Engineering Intern at the [Raw Earth Foundation](https://rawearthfoundation.org/)
-- Became a technology implementation associate for [Cornell Data Strategy](https://cornelldatastrategy.com/)
+- Joined the [Raw Earth Foundation](https://rawearthfoundation.org/) as a Software Engineering Intern
+- Accepted into [Cornell Data Strategy](https://cornelldatastrategy.com/) as a Technology Implementation associate
 
 **2024**
 - Joined the software subteam for the [Cornell Autonomous Underwater Vehicle](https://cuauv.org/) project team
@@ -21,10 +21,8 @@ In my free time, I love trying new things, working out, speed cubing, seeing fri
 
 **2023**
 - Mentored K-12 students at [Mathnasium](https://www.mathnasium.com/), focusing on teaching analytical and problem-solving skills
-- Led the software development of TremorTrackr, a wearable sensor system designed to monitor tremors for Parkinson’s patients. Integrated hardware, software, and data analysis with Flask and SciPy. [Project Link](https://drive.google.com/file/d/1wY2wYA9lL9wg6kHggdBuMoolQyTB409-/view?usp=sharing)
+- Led the software development of TremorTrackr, a wearable sensor system designed to monitor tremors for Parkinson's patients. Integrated hardware, software, and data analysis with Flask and SciPy. [Project Link](https://drive.google.com/file/d/1wY2wYA9lL9wg6kHggdBuMoolQyTB409-/view?usp=sharing)
 - Worked as an IT consultant for [Compass Psychological Services](https://compasspsychnj.com/), improving system reliability and user experience by updating their website and resolving technical issues
-
-
 
 **2022**
 - Conducted novel research on minimizing head injury severity from falls. Presented in multiple state and national competitions [Paper](https://drive.google.com/file/d/1y4YNDAyWeJ02X8ZVRsGrgaTDKFc2r88H/view?usp=sharing) | [Poster](https://drive.google.com/file/d/1E__mxCfKJjP5b3twAkSi8eGrBDWYmOS3/view?usp=sharing)
