@@ -45,7 +45,6 @@ const SideBar = () => {
             I&apos;m currently pursuing a major in <a href="https://www.cs.cornell.edu/">Computer Science</a> and
             a minor in <a href="https://business.cornell.edu/programs/undergraduate/minors/business-engineers/">Business</a>.
           </p>
-          {/* <img src={`${PUBLIC_URL}/images/file.jpg`} alt="" /> */}
 
           <ul className="actions">
             <li>
@@ -60,6 +59,28 @@ const SideBar = () => {
               )}
             </li>
           </ul>
+        </section>
+      )}
+
+      {isMobile && isHomePage && (
+        <section className="post">
+          <header>
+            <div className="title">
+              <h2>
+                <Link to="/">About this site</Link>
+              </h2>
+              <p>
+                A sleek, responsive, statically-generated react application
+                written with modern Javascript.
+              </p>
+            </div>
+          </header>
+          <p>
+            {' '}
+            Welcome to my website. Please feel free to read more{' '}
+            <Link to="/about">about me</Link> or you can check out my{' '}
+            <Link to="/projects">projects</Link>.
+          </p>
         </section>
       )}
 
