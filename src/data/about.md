@@ -9,7 +9,7 @@ In my free time, I love trying new things, working out, speed cubing, seeing fri
 - Started a Software Engineering internship at [Verizon](https://www.verizon.com/) in the Application Security Risk Management organization
 - Promoted to Project Lead within the Technology Implementation division at [Cornell Data Strategy](https://cornelldatastrategy.com/)
 - Joined the [Raw Earth Foundation](https://rawearthfoundation.org/) as a Software Engineering Intern
-- Accepted into [Cornell Data Strategy](https://cornelldatastrategy.com/) as a Technology Implementation associate
+- Accepted into [Cornell Data Strategy](https://cornelldatastrategy.com/) as a Technology Implementation Associate
 
 **2024**
 - Joined the software subteam for the [Cornell Autonomous Underwater Vehicle](https://cuauv.org/) project team
