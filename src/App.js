@@ -12,7 +12,6 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
-const AttritionAnalytics = lazy(() => import('./pages/AttritionAnalytics'));
 const CampusQuest = lazy(() => import('./pages/CampusQuest'));
 const Fortress = lazy(() => import('./pages/Fortress'));
 const TremorTrackr = lazy(() => import('./pages/TremorTrackr'));
@@ -20,6 +19,7 @@ const ProjectNexus = lazy(() => import('./pages/ProjectNexus'));
 const OptiFolio = lazy(() => import('./pages/OptiFolio'));
 const Cato = lazy(() => import('./pages/Cato'));
 const CausticGuard = lazy(() => import('./pages/CausticGuard'));
+const TariffInsight = lazy(() => import('./pages/TariffInsight'));
 
 // const Stats = lazy(() => import('./pages/Stats'));
 
@@ -29,7 +29,6 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/AttritionAnalytics" element={<AttritionAnalytics />} />
         {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="/projects/CampusQuest" element={<CampusQuest />} />
         <Route path="/projects/TremorTrackr" element={<TremorTrackr />} />
@@ -38,6 +37,7 @@ const App = () => (
         <Route path="/projects/OptiFolio" element={<OptiFolio />} />
         <Route path="/projects/Cato" element={<Cato />} />
         <Route path="/projects/CausticGuard" element={<CausticGuard />} />
+        <Route path="/projects/TariffInsight" element={<TariffInsight />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

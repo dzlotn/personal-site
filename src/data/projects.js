@@ -7,7 +7,18 @@ const data = [
     link: '',
     image: '/images/projects/optiblack.png',
     date: '2025-12-05',
-    desc: 'OptiFolio is a OCaml portfolio optimizer that analyzes your investments and recommends stocks based on your risk profile',
+    desc: 'OptiFolio is an OCaml portfolio optimizer that analyzes your investments and recommends stocks based on your risk profile',
+    techs: ['OCaml', 'Lwt', 'Bogue', 'Yojson', 'Cohttp-lwt-unix', 'Dune', 'Alpha Vantage API'],
+  },
+  {
+    slug: 'TariffInsight',
+    title: 'TariffInsight',
+    subtitle: 'Tariff Impact Forecasting System for Finger Lakes Goods',
+    link: '',
+    image: '/images/projects/tariffpic2.png',
+    date: '2025-10-01',
+    desc: 'TariffInsight is a full-stack application that forecasts the financial impact of tariffs on sales using ML and time series analysis',
+    techs: ['Django', 'Python', 'SARIMAX', 'Statsmodels', 'Pandas', 'Scikit-Learn', 'Plotly', 'XGBoost', 'Gunicorn'],
   },
   {
     slug: 'CausticGuard',
@@ -18,6 +29,7 @@ const data = [
     image: '/images/projects/caustic.png',
     date: '2025-11-01',
     desc: 'CausticGuard is a C++ motion-adaptive caustics suppression system for computer vision in underwater environments',
+    techs: ['C++', 'Python', 'OpenCV', 'ZED Camera SDK', 'Kalman Filtering', 'Point Cloud Processing', 'Temporal Smoothing'],
   },
   {
     slug: 'Cato',
@@ -27,6 +39,7 @@ const data = [
     image: '/images/projects/catowhite.png',
     date: '2025-08-01',
     desc: 'Cato is a ground-up semantic search engine built in Java for retrieving answers from documentation and service logs',
+    techs: ['Java', 'Python', 'Apache Lucene', 'Tensorflow', 'PyTorch', 'Hugging Face', 'MySQL', 'React', 'Gemini'],
   },
   {
     slug: 'ProjectNexus',
@@ -36,6 +49,7 @@ const data = [
     image: '/images/projects/ProjectNexus.png',
     date: '2025-05-08',
     desc: 'NexusRTS is a trucking-optimized real-time tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
+    techs: ['React.js', 'TypeScript', 'Flask', 'SARIMAX', 'GeoPandas', 'Pandas', 'Google Maps API', 'Tailwind CSS', 'Vite'],
   },
   {
     slug: 'TremorTrackr',
@@ -46,6 +60,7 @@ const data = [
     image: '/images/projects/tremortrackr.png',
     date: '2023-05-01',
     desc: 'TremorTrackr is a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
+    techs: ['Arduino', 'Python', 'Flask', 'Firebase', 'Scipy', 'NumPy', 'Matplotlib', 'Signal Processing', 'JavaScript'],
   },
   {
     slug: 'Fortress',
@@ -56,15 +71,7 @@ const data = [
     image: '/images/projects/Fortress.png',
     date: '2024-04-28',
     desc: 'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
-  },
-  {
-    slug: 'AttritionAnalytics',
-    title: 'Attrition Analytics',
-    subtitle: 'Google Advanced Data Analytics Certification',
-    link: 'https://github.com/dzlotn/Google-Data-Analytics-Capstone-Project',
-    image: '/images/projects/attritionanalytics.jpg',
-    date: '2024-08-05',
-    desc: 'Attrition Analytics is a ML algorithm to predict employee turnover built for the Google Advanced Data Analytics Certification',
+    techs: ['Python', 'Java', 'JSON', 'NumPy', 'Secrets', 'Logging', 'Cryptography'],
   },
 ];
 

@@ -21,6 +21,15 @@ const Cell = ({ data }) => (
       </Link>
       <div className="description">
         <p>{data.desc}</p>
+        {data.techs && data.techs.length > 0 && (
+          <div className="tech-tags">
+            {data.techs.map((tech) => (
+              <span key={tech} className="tech-tag">
+                {tech}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </article>
   </div>
@@ -33,6 +42,7 @@ Cell.propTypes = {
     image: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
+    techs: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };
 
