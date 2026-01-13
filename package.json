@@ -8,11 +8,11 @@
     "url": "https://github.com/dzlotn/personal-site.git"
   },
   "engines": {
-    "node": ">=16.x"
+    "node": "24.x"
   },
   "scripts": {
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
-    "build": "rimraf ./build && react-scripts build",
+    "build": "npx rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
     "predeploy": "npm run build && react-snap",
     "start": "react-scripts start",
@@ -35,7 +35,9 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.3",
     "@babel/eslint-parser": "^7.25.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.25.3",
     "@babel/preset-react": "^7.25.9",
     "@testing-library/jest-dom": "^5.17.0",

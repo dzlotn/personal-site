@@ -1,48 +1,35 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
 
 const Index = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 736);
+  const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 736);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    import('../data/about.md').then((res) => {
+      fetch(res.default)
+        .then((r) => r.text())
+        .then(setMarkdown);
+    });
   }, []);
 
   return (
     <Main
-      description={
-        "Daniel Zlotnick's personal website. Cornell University student, "
-        + 'Computer Science major with a Business minor.'
-      }
+      title="About"
+      description="Learn about Daniel Zlotnick"
     >
-      {!isMobile && (
-        <article className="post" id="index">
-          <header>
-            <div className="title">
-              <h2>
-                <Link to="/">About this site</Link>
-              </h2>
-              <p>
-                A sleek, responsive, statically-generated react application
-                written with modern Javascript.
-              </p>
-            </div>
-          </header>
-          <p>
-            {' '}
-            Welcome to my website. Please feel free to read more{' '}
-            <Link to="/about">about me</Link> or you can check out my{' '}
-            <Link to="/projects">projects</Link>.
-          </p>
-        </article>
-      )}
+      <article className="post markdown" id="about">
+        <header>
+          <div className="title">
+            <h2>
+              <Link to="/">About Me</Link>
+            </h2>
+          </div>
+        </header>
+        <Markdown>{markdown}</Markdown>
+      </article>
     </Main>
   );
 };

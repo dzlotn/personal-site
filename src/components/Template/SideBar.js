@@ -29,7 +29,9 @@ const SideBar = () => {
           <header>
             <h2>Daniel Zlotnick</h2>
             <p>
-              <a href="mailto:daniel.zlotnick5@gmail.com">daniel.zlotnick5@gmail.com</a>
+              <a href="mailto:daniel.zlotnick5@gmail.com">
+                daniel.zlotnick5@gmail.com
+              </a>
             </p>
           </header>
         </section>
@@ -39,11 +41,18 @@ const SideBar = () => {
         <section className="blurb">
           <h2>About</h2>
           <p>
-            Hi, I&apos;m Daniel Zlotnick, a student
-            at <a href="https://www.cornell.edu/">Cornell University</a> with a passion for solving complex problems
-            and harnessing technology to create meaningful change.
-            I&apos;m currently pursuing a major in <a href="https://www.cs.cornell.edu/">Computer Science</a> and
-            a minor in <a href="https://business.cornell.edu/programs/undergraduate/minors/business-engineers/">Business</a>.
+            Hi, I&apos;m Daniel Zlotnick, a student at{' '}
+            <a href="https://www.cornell.edu/">Cornell University</a> with a
+            passion for solving complex problems and harnessing technology to
+            create meaningful change. I&apos;m currently studying at{' '}
+            <a href="https://www.engineering.cornell.edu/">
+              Cornell Engineering
+            </a>
+            , pursuing both a Bachelor of Science and a{' '}
+            <a href="https://www.cs.cornell.edu/master-engineering-computer-science">
+              Master of Engineering
+            </a>{' '}
+            in <a href="https://www.cs.cornell.edu/">Computer Science</a>.
           </p>
 
           <ul className="actions">
@@ -64,9 +73,7 @@ const SideBar = () => {
 
       <section id="footer">
         <ContactIcons />
-        <p className="copyright">
-          &copy; Daniel Zlotnick
-        </p>
+        <p className="copyright">&copy; Daniel Zlotnick</p>
       </section>
     </section>
   );

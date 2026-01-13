@@ -13,7 +13,7 @@ const About = () => {
         .then((r) => r.text())
         .then(setMarkdown);
     });
-  });
+  }, []);
 
   // const count = markdown
   //   .split(/\s+/)

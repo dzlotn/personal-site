@@ -1,15 +1,15 @@
 # Intro
 
-I am an undergraduate student at [Cornell Engineering](https://www.engineering.cornell.edu/) majoring in [Computer Science](https://www.cs.cornell.edu/) and minoring in [Business](https://business.cornell.edu/programs/undergraduate/minors/business-engineers/).
-
+I am a student at [Cornell Engineering](https://www.engineering.cornell.edu/) pursuing both a Bachelor of Science and a [Master of Engineering](https://www.cs.cornell.edu/master-engineering-computer-science) in [Computer Science](https://www.cs.cornell.edu/).
 In my free time, I love trying new things, working out, speed cubing, seeing friends, reading, and watching TV shows.
 
 # **News**
 **2025**
-- Started a Software Engineering internship at [Verizon](https://www.verizon.com/) in the Application Security Risk Management organization
-- Promoted to Project Lead within the Technology Implementation division at [Cornell Data Strategy](https://cornelldatastrategy.com/)
-- Joined the [Raw Earth Foundation](https://rawearthfoundation.org/) as a Software Engineering Intern
-- Accepted into [Cornell Data Strategy](https://cornelldatastrategy.com/) as a Technology Implementation Associate
+- Developed motion-adaptive computer vision algorithms at [Cornell Autonomous Underwater Vehicle](https://cuauv.org/) for underwater artifact removal
+- Led two full-stack [Cornell Data Strategy](https://cornelldatastrategy.com/) projects, applying machine learning and predictive data analytics to forecast tariff impacts on profit and drive marketing strategy for e-commerce and museum clients
+- Completed a Software Engineering Internship at [Verizon](https://www.verizon.com/), developing an AI-powered semantic search engine to support application security risk management
+- Joined the [Raw Earth Foundation](https://rawearthfoundation.org/) as a Software Engineering Intern, building full-stack web/mobile applications for volunteers
+- Accepted into [Cornell Data Strategy](https://cornelldatastrategy.com/) as a Technology Implementation Associate and subsequently promoted to Project Lead
 
 **2024**
 - Joined the software subteam for the [Cornell Autonomous Underwater Vehicle](https://cuauv.org/) project team
