@@ -64,7 +64,7 @@ const data = [
     link: 'https://github.com/dzlotn/Google-Data-Analytics-Capstone-Project',
     image: '/images/projects/attritionanalytics.jpg',
     date: '2024-08-05',
-    desc: 'Attrition Analytics is a ML algorithm to predict employee turnover that I built for the Google Advanced Data Analytics Certification',
+    desc: 'Attrition Analytics is a ML algorithm to predict employee turnover built for the Google Advanced Data Analytics Certification',
   },
 ];
 
