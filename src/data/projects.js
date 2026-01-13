@@ -1,32 +1,32 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    slug: 'CausticGuard',
-    title: 'CausticGuard',
-    subtitle:
-      'Motion-Adaptive Caustics Suppression for Underwater Computer Vision',
-    link: '',
-    image: '/images/projects/optiblack.png',
-    date: '2025-11-01',
-    desc: 'CausticGuard is a motion-adaptive caustics suppression system for underwater computer vision that enhances image clarity.',
-  },
-  {
     slug: 'OptiFolio',
     title: 'OptiFolio',
     subtitle: 'Freight disruption and route optimization system',
     link: '',
     image: '/images/projects/optiblack.png',
     date: '2025-12-05',
-    desc: 'OptiFolio is a portfolio optimizer that analyzes investment preferences and recommends stocks based on your risk profile.',
+    desc: 'OptiFolio is a OCaml portfolio optimizer that analyzes your investments and recommends stocks based on your risk profile',
+  },
+  {
+    slug: 'CausticGuard',
+    title: 'CausticGuard',
+    subtitle:
+      'Motion-Adaptive Caustics Suppression for Underwater Computer Vision',
+    link: '',
+    image: '/images/projects/caustic.png',
+    date: '2025-11-01',
+    desc: 'CausticGuard is a C++ motion-adaptive caustics suppression system for computer vision in underwater environments',
   },
   {
     slug: 'Cato',
     title: 'Cato',
     subtitle: 'Comprehensive system for solving complex problems',
     link: '',
-    image: '/images/projects/optiblack.png',
+    image: '/images/projects/catowhite.png',
     date: '2025-08-01',
-    desc: 'Cato is a comprehensive system designed to solve complex problems through innovative technology solutions.',
+    desc: 'Cato is a ground-up semantic search engine built in Java for retrieving answers from documentation and service logs',
   },
   {
     slug: 'ProjectNexus',

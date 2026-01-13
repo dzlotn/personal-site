@@ -1,18 +1,18 @@
 # The Project
 
-CausticGuard is a motion-adaptive caustics suppression system for underwater computer vision. The system addresses the challenging problem of caustic patterns in underwater imagery by implementing adaptive algorithms that suppress these visual artifacts while preserving image quality and detail. This technology enhances the reliability of underwater computer vision applications by improving image clarity and reducing noise from light refraction patterns.
+CausticGuard is a motion-adaptive caustics suppression system for underwater computer vision built for CUAUV (Cornell University Autonomous Underwater Vehicle). Caustics are high-frequency, rapidly changing brightness patterns that form when sunlight refracts off curved or turbulent water surfaces, creating major noise for computer vision systems. The system uses temporal smoothing with motion-adaptive exponential moving averages to suppress caustics while avoiding motion blur and ghosting when the vehicle moves.
 
 # Key Features
 
-* _Motion Adaptation_: Adapts caustics suppression based on motion patterns in underwater scenes
-* _Pattern Detection_: Identifies and analyzes caustic patterns in real-time
-* _Image Enhancement_: Suppresses caustics while preserving important image details
-* _Real-time Processing_: Processes underwater video streams with low latency
-* _Quality Preservation_: Maintains image quality and contrast during suppression
+* _Motion-Adaptive Filtering_: Computes Kalman-estimated velocity magnitude to dynamically adjust smoothing strength based on vehicle motion
+* _Temporal Smoothing_: Uses exponential moving average that adapts alpha values from 0.05 to 0.30 based on robot velocity
+* _Real-time Performance_: Runs at O(N) complexity with full pixel-level parallelism, maintaining frame rate performance
+* _Camera Calibration_: Optimizes ZED camera parameters for outdoor environments to reduce sun glare
+* _3D World-Space Architecture_: Future implementation uses point cloud transformation and world coordinate alignment for ghosting-free suppression
 
 # Project Link:
-[GitHub](#) | [Demo](#)
+[TBA](#)
 
 # Technologies Used:
 
-Python, OpenCV, Computer Vision, Image Processing, Machine Learning
+C++, Python, OpenCV, ZED Camera SDK, Computer Vision, Kalman Filtering, Exponential Moving Average, Point Cloud Processing, Temporal Smoothing

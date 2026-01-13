@@ -28,7 +28,7 @@ const CausticGuard = () => {
           </div>
         </header>
         <div className="about-content">
-          <img src={`${PUBLIC_URL}/images/projects/optiblack.png`} alt="" className="about-image" style={{ maxWidth: '100%', height: 'auto' }} />
+          <img src={`${PUBLIC_URL}/images/projects/caustic.png`} alt="" className="about-image" style={{ maxWidth: '100%', height: 'auto' }} />
           <div className="markdown-content">
             <Markdown>{markdown}</Markdown>
           </div>
