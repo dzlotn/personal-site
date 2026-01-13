@@ -44,9 +44,16 @@ body {
     line-height: inherit;
     padding: 0 0 0 1.5em;
     white-space: nowrap;
+    font-size: 0.7em;
 
     a {
       font-size: 0.7em;
+    }
+
+    &.index-link {
+      a {
+        font-size: 1em;
+      }
     }
   }
 
@@ -196,6 +203,15 @@ body {
 
 #header .index-link {
   z-index: 3;
+
+  a {
+    pointer-events: none;
+    cursor: default;
+
+    &:hover {
+      color: inherit !important;
+    }
+  }
 }
 
 #header .main .menu {

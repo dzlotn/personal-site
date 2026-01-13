@@ -8,7 +8,6 @@ const { PUBLIC_URL } = process.env;
 // Every route - we lazy load so that each page can be chunked
 // NOTE that some of these chunks are very small. We should optimize
 // which pages are lazy loaded in the future.
-const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -18,6 +17,9 @@ const CampusQuest = lazy(() => import('./pages/CampusQuest'));
 const Fortress = lazy(() => import('./pages/Fortress'));
 const TremorTrackr = lazy(() => import('./pages/TremorTrackr'));
 const ProjectNexus = lazy(() => import('./pages/ProjectNexus'));
+const OptiFolio = lazy(() => import('./pages/OptiFolio'));
+const Cato = lazy(() => import('./pages/Cato'));
+const CausticGuard = lazy(() => import('./pages/CausticGuard'));
 
 // const Stats = lazy(() => import('./pages/Stats'));
 
@@ -26,7 +28,6 @@ const App = () => (
     <Suspense fallback={<Main />}>
       <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/AttritionAnalytics" element={<AttritionAnalytics />} />
         {/* <Route path="/resume" element={<Resume />} /> */}
@@ -34,6 +35,9 @@ const App = () => (
         <Route path="/projects/TremorTrackr" element={<TremorTrackr />} />
         <Route path="/projects/Fortress" element={<Fortress />} />
         <Route path="/projects/ProjectNexus" element={<ProjectNexus />} />
+        <Route path="/projects/OptiFolio" element={<OptiFolio />} />
+        <Route path="/projects/Cato" element={<Cato />} />
+        <Route path="/projects/CausticGuard" element={<CausticGuard />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

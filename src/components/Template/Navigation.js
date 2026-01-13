@@ -8,13 +8,13 @@ import routes from '../../data/routes';
 const Navigation = () => (
   <header id="header">
     <h1 className="index-link">
-      {routes
-        .filter((l) => l.index)
-        .map((l) => (
-          <Link key={l.label} to={l.path}>
-            {l.label}
-          </Link>
-        ))}
+      <Link
+        to="/"
+        onClick={(e) => e.preventDefault()}
+        style={{ pointerEvents: 'none', cursor: 'default' }}
+      >
+        Daniel Zlotnick
+      </Link>
     </h1>
     <nav className="links">
       <ul>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
@@ -7,8 +7,6 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 
 const SideBar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 736);
-  const location = useLocation();
-  const isHomePage = location.pathname === '/';
 
   useEffect(() => {
     const handleResize = () => {
@@ -21,11 +19,11 @@ const SideBar = () => {
 
   return (
     <section id="sidebar">
-      {(!isMobile || isHomePage) && (
+      {!isMobile && (
         <section id="intro">
-          <Link to="/" className="logo">
+          <div className="logo">
             <img src={`${PUBLIC_URL}/images/file.jpg`} alt="" />
-          </Link>
+          </div>
           <header>
             <h2>Daniel Zlotnick</h2>
             <p>
@@ -37,7 +35,7 @@ const SideBar = () => {
         </section>
       )}
 
-      {(!isMobile || isHomePage) && (
+      {!isMobile && (
         <section className="blurb">
           <h2>About</h2>
           <p>
@@ -57,15 +55,9 @@ const SideBar = () => {
 
           <ul className="actions">
             <li>
-              {window.location.pathname.includes('/about') ? (
-                <Link to="/projects" className="button">
-                  My Projects
-                </Link>
-              ) : (
-                <Link to="/about" className="button">
-                  About Me
-                </Link>
-              )}
+              <Link to="/projects" className="button">
+                My Projects
+              </Link>
             </li>
           </ul>
         </section>

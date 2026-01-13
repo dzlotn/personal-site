@@ -9,33 +9,26 @@
   position: relative;
 
   .description {
-    position: absolute;
+    position: relative;
     padding: 0;
-    bottom: 0;
     border-top: solid 1px _palette(border);
 
     p {
       font-size: 0.9rem;
       margin: 0;
       padding: 1.25em;
-      background-color: rgba(255, 255, 255, 0.7);
+      background-color: #ffffff;
       color: #3c3b3b;
       font-family: "Raleway", Helvetica, sans-serif;
-      z-index: 1000;
       transition: all 0.1s;
       -webkit-transition: all 0.1s ease-in-out;
-    }
-
-    p:hover {
-      background-color: rgba(255, 255, 255, 0.9);
     }
   }
 
   @media (max-width: 480px) {
     .description {
-      position: inherit;
+      position: relative;
       padding: 0;
-      bottom: inherit;
     }
   }
 }
@@ -61,7 +54,7 @@
 
     &:hover {
       img {
-        @include vendor("transform", "scale(1.05)");
+        @include vendor("transform", "scale(0.98)");
       }
     }
   }
