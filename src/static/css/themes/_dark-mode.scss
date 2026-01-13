@@ -1,0 +1,177 @@
+// Dark Mode Styles
+// These styles override the default light theme when .dark-mode class is on html element
+
+.dark-mode {
+  body {
+    background: #2a2a2a;
+    color: #b0b0b0;
+  }
+
+  #header {
+    background-color: #1a1a1a;
+    border-bottom-color: rgba(160, 160, 160, 0.2);
+
+    .theme-toggle {
+      border-left-color: rgba(160, 160, 160, 0.2);
+      color: #e0e0e0;
+
+      &:hover {
+        color: #5a9fff;
+        background-color: rgba(160, 160, 160, 0.05);
+      }
+    }
+
+    a {
+      color: #e0e0e0;
+    }
+  }
+
+  .mini-post {
+    background: #1a1a1a;
+    border-color: rgba(160, 160, 160, 0.2);
+
+    .description {
+      border-top-color: rgba(160, 160, 160, 0.2);
+
+      p {
+        background-color: #1a1a1a;
+        color: #b0b0b0;
+      }
+
+      .tech-tag {
+        background-color: #2a2a2a;
+        color: #b0b0b0;
+        border-color: rgba(160, 160, 160, 0.2);
+      }
+    }
+
+    header {
+      h3 {
+        a {
+          color: #e0e0e0;
+        }
+      }
+    }
+  }
+
+  #sidebar {
+    background-color: #2a2a2a;
+
+    #intro {
+      border-bottom-color: rgba(160, 160, 160, 0.2);
+
+      h2 {
+        color: #e0e0e0;
+      }
+
+      p {
+        color: #b0b0b0;
+      }
+    }
+
+    .blurb {
+      border-top-color: rgba(160, 160, 160, 0.2);
+      color: #b0b0b0;
+
+      h2 {
+        color: #e0e0e0;
+      }
+
+      p {
+        color: #b0b0b0;
+      }
+    }
+
+    #footer {
+      border-top-color: rgba(160, 160, 160, 0.2);
+      color: #b0b0b0;
+    }
+  }
+
+  #main {
+    background-color: #2a2a2a;
+
+    .post {
+      background-color: #1a1a1a;
+      border-color: rgba(160, 160, 160, 0.2);
+
+      header {
+        border-bottom-color: rgba(160, 160, 160, 0.2);
+
+        h2 {
+          color: #e0e0e0;
+        }
+      }
+
+      .markdown {
+        color: #b0b0b0;
+
+        h1, h2, h3, h4, h5, h6 {
+          color: #e0e0e0;
+        }
+
+        code {
+          background-color: #2a2a2a;
+          color: #b0b0b0;
+        }
+
+        pre {
+          background-color: #2a2a2a;
+          border-color: rgba(160, 160, 160, 0.2);
+        }
+      }
+    }
+  }
+
+  a {
+    color: #b0b0b0;
+
+    &:hover {
+      color: #5a9fff !important;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #e0e0e0;
+  }
+
+  strong, b {
+    color: #e0e0e0;
+  }
+
+  .button {
+    box-shadow: inset 0 0 0 1px rgba(160, 160, 160, 0.2);
+    color: #e0e0e0 !important;
+
+    &:hover {
+      box-shadow: inset 0 0 0 1px #5a9fff;
+      color: #5a9fff !important;
+    }
+  }
+
+  input, select, textarea {
+    background-color: #1a1a1a;
+    border-color: rgba(160, 160, 160, 0.2);
+    color: #b0b0b0;
+  }
+
+  table {
+    tbody {
+      tr {
+        border-top-color: rgba(160, 160, 160, 0.2);
+
+        &:nth-child(2n + 1) {
+          background-color: #2a2a2a;
+        }
+      }
+    }
+  }
+
+  .bm-menu {
+    background: #1a1a1a;
+  }
+
+  .bm-item-list {
+    color: #e0e0e0;
+  }
+}
