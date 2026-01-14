@@ -1,7 +1,7 @@
 # Intro
 
 I am a student at [Cornell Engineering](https://www.engineering.cornell.edu/) pursuing both a Bachelor of Science and a [Master of Engineering](https://www.cs.cornell.edu/master-engineering-computer-science) in [Computer Science](https://www.cs.cornell.edu/).
-In my free time, I love trying new things, working out, playing ultimate frisbee, seeing friends, reading, and watching TV shows.
+In my free time, I love trying new things, working out, playing ultimate frisbee, seeing friends, traveling, and watching TV.
 
 # **News**
 **2025**
