@@ -4,6 +4,10 @@ I am a student at [Cornell Engineering](https://www.engineering.cornell.edu/) pu
 In my free time, I love trying new things, working out, playing ultimate frisbee, seeing friends, traveling, and watching TV.
 
 # **News**
+**2026**
+- Accepted as a Software Engineering Intern at [Morgan Stanley](https://www.morganstanley.com/)
+- Joined the [Relax ML Lab](https://relax-ml.cs.cornell.edu/), doing research on large language diffusion models
+
 **2025**
 - Developed motion-adaptive computer vision algorithms at [Cornell Autonomous Underwater Vehicle](https://cuauv.org/) for underwater artifact removal
 - Led two full-stack [Cornell Data Strategy](https://cornelldatastrategy.com/) projects, applying machine learning and predictive data analytics to forecast tariff impacts on profit and drive marketing strategy for e-commerce and museum clients
