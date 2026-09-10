@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga';
+// eslint-disable-next-line import/no-unresolved
+import ReactGA from 'react-ga4';
 
 const { NODE_ENV, REACT_APP_GA_TRACKING_ID } = process.env;
 
@@ -12,11 +13,8 @@ const Analytics = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    if (NODE_ENV === 'production') {
-      ReactGA.set({
-        page: pathname,
-      });
-      ReactGA.pageview(pathname);
+    if (NODE_ENV === 'production' && REACT_APP_GA_TRACKING_ID) {
+      ReactGA.send({ hitType: 'pageview', page: pathname });
     }
   }, [pathname]);
 
