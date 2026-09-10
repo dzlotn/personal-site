@@ -14,12 +14,14 @@ const Projects = () => (
           <h2>
             <Link to="/projects">Projects</Link>
           </h2>
-          <p>Click on each project to learn more</p>
+          <p>Click on a project to learn more</p>
         </div>
       </header>
-      {data.map((project) => (
-        <Cell data={project} key={project.slug} />
-      ))}
+      <div className="projects-grid">
+        {data.map((project) => (
+          <Cell data={project} key={project.slug} />
+        ))}
+      </div>
     </article>
   </Main>
 );

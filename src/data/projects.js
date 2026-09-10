@@ -1,14 +1,36 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    slug: 'Meander',
+    title: 'Meander',
+    subtitle: 'A real-time, interactive GPU fluid simulator',
+    link: '',
+    image: '/images/projects/meander.jpg',
+    date: '2026-09-09',
+    desc: 'Meander is a real-time fluid simulator that solves the Navier-Stokes equations directly on the GPU',
+    techs: ['C++', 'OpenGL', 'Claude', 'Codex', 'ImGui', 'Ninja'],
+  },
+  {
+    slug: 'CausticGuard',
+    title: 'CausticGuard',
+    subtitle:
+      'Motion-Adaptive Caustics Suppression for Underwater Computer Vision',
+    link: '',
+    image: '/images/projects/caustic.png',
+    imageFit: 'contain',
+    date: '2026-05-01',
+    desc: 'CausticGuard is a CUDA-accelerated motion-adaptive caustics suppression system for computer vision in underwater environments',
+    techs: ['C++', 'CUDA', 'Python', 'PyTorch', 'TensorRT', 'OpenCV'],
+  },
+  {
     slug: 'OptiFolio',
     title: 'OptiFolio',
-    subtitle: 'Freight disruption and route optimization system',
+    subtitle: 'Personalized portfolio optimizer built from scratch in OCaml',
     link: '',
     image: '/images/projects/optiblack.png',
     date: '2025-12-05',
     desc: 'OptiFolio is an OCaml portfolio optimizer that analyzes your investments and recommends stocks based on your risk profile',
-    techs: ['OCaml', 'Lwt', 'Bogue', 'Yojson', 'Cohttp-lwt-unix', 'Dune', 'Alpha Vantage API'],
+    techs: ['OCaml', 'Dune', 'Lwt', 'Bisect', 'Alpha Vantage', 'Yojson'],
   },
   {
     slug: 'TariffInsight',
@@ -18,18 +40,7 @@ const data = [
     image: '/images/projects/tariffpic2.png',
     date: '2025-10-01',
     desc: 'TariffInsight is a full-stack application that forecasts the financial impact of tariffs on sales using ML and time series analysis',
-    techs: ['Django', 'Python', 'SARIMAX', 'Statsmodels', 'Pandas', 'Scikit-Learn', 'Plotly', 'XGBoost', 'Gunicorn'],
-  },
-  {
-    slug: 'CausticGuard',
-    title: 'CausticGuard',
-    subtitle:
-      'Motion-Adaptive Caustics Suppression for Underwater Computer Vision',
-    link: '',
-    image: '/images/projects/caustic.png',
-    date: '2025-11-01',
-    desc: 'CausticGuard is a C++ motion-adaptive caustics suppression system for computer vision in underwater environments',
-    techs: ['C++', 'Python', 'OpenCV', 'ZED Camera SDK', 'Kalman Filtering', 'Point Cloud Processing', 'Temporal Smoothing'],
+    techs: ['Python', 'Django', 'Seaborn', 'Render', 'Pandas'],
   },
   {
     slug: 'Cato',
@@ -39,7 +50,7 @@ const data = [
     image: '/images/projects/catowhite.png',
     date: '2025-08-01',
     desc: 'Cato is a ground-up semantic search engine built in Java for retrieving answers from documentation and service logs',
-    techs: ['Java', 'Python', 'Apache Lucene', 'Tensorflow', 'PyTorch', 'Hugging Face', 'MySQL', 'React', 'Gemini'],
+    techs: ['Java', 'Python', 'PyTorch', 'Hugging Face', 'SQL'],
   },
   {
     slug: 'ProjectNexus',
@@ -49,18 +60,7 @@ const data = [
     image: '/images/projects/ProjectNexus.png',
     date: '2025-05-08',
     desc: 'NexusRTS is a trucking-optimized real-time tool that predicts traffic slowdowns, optimizes routes, and estimates costs.',
-    techs: ['React.js', 'TypeScript', 'Flask', 'SARIMAX', 'GeoPandas', 'Pandas', 'Google Maps API', 'Tailwind CSS', 'Vite'],
-  },
-  {
-    slug: 'TremorTrackr',
-    title: 'TremorTrackr',
-    subtitle:
-      'Created a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
-    link: '',
-    image: '/images/projects/tremortrackr.png',
-    date: '2023-05-01',
-    desc: 'TremorTrackr is a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
-    techs: ['Arduino', 'Python', 'Flask', 'Firebase', 'Scipy', 'NumPy', 'Matplotlib', 'Signal Processing', 'JavaScript'],
+    techs: ['React', 'Python', 'TypeScript', 'Tailwind', 'Vite', 'Pandas'],
   },
   {
     slug: 'Fortress',
@@ -71,7 +71,18 @@ const data = [
     image: '/images/projects/Fortress.png',
     date: '2024-04-28',
     desc: 'Fortress is a sophisticated suite built with Python and Java designed for generating, analyzing, and securely storing passwords',
-    techs: ['Python', 'Java', 'JSON', 'NumPy', 'Secrets', 'Logging', 'Cryptography'],
+    techs: ['Python', 'Java', 'TypeScript', 'React', 'Vite', 'NumPy'],
+  },
+  {
+    slug: 'TremorTrackr',
+    title: 'TremorTrackr',
+    subtitle:
+      'Created a wearable sensor to identify and monitor tremors for patients with Parkinson\'s disease',
+    link: '',
+    image: '/images/projects/tremortrackr.png',
+    date: '2023-05-01',
+    desc: "TremorTrackr is a wearable sensor to identify and monitor tremors for patients with Parkinson's disease",
+    techs: ['Python', 'Arduino C', 'Flask', 'JavaScript', 'HTML/CSS'],
   },
 ];
 

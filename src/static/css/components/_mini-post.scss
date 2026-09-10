@@ -1,142 +1,116 @@
-///
-/// Future Imperfect by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
+/* Projects grid */
 
-/* Mini Post */
-.cell-container {
-  position: relative;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5em;
+  margin: 0 0 _size(element-margin);
+}
 
-  .description {
-    position: relative;
-    padding: 0;
-    border-top: solid 1px _palette(border);
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background: _palette(bg);
+  border: solid 1px _palette(border-alt);
+  border-bottom: none;
+  border-radius: 8px;
+  overflow: hidden;
+  color: inherit;
+  @include vendor(
+    "transition",
+    ("transform #{_duration(transition)} ease-out", "box-shadow #{_duration(transition)} ease-out", "border-color #{_duration(transition)} ease-out")
+  );
 
-    p {
-      font-size: 0.9rem;
-      margin: 0;
-      padding: 1.25em 1.25em 0.75em 1.25em;
-      background-color: #ffffff;
-      color: #3c3b3b;
+  &:hover {
+    @include vendor("transform", "translateY(-3px)");
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+    border-color: _palette(accent);
+  }
+
+  .project-card-image {
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background: _palette(bg-alt);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .project-card-body {
+    display: flex;
+    flex-direction: column;
+    @include vendor("flex-grow", "1");
+    padding: 1.25em;
+
+    header {
+      margin-bottom: 0.6em;
+
+      h3 {
+        font-size: 1em;
+        margin: 0;
+        color: _palette(fg-bold);
+      }
+
+      .published {
+        display: block;
+        font-family: _font(family-heading);
+        font-size: 0.65em;
+        font-weight: _font(weight-heading);
+        letter-spacing: _font(kerning-heading);
+        text-transform: uppercase;
+        color: _palette(fg-light);
+        margin-top: 0.5em;
+      }
+    }
+
+    .description {
+      font-size: 0.85rem;
+      line-height: 1.5em;
+      color: _palette(fg);
       font-family: "Raleway", Helvetica, sans-serif;
-      transition: all 0.1s;
-      -webkit-transition: all 0.1s ease-in-out;
+      margin: 0 0 1em 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      @include vendor("flex-grow", "1");
     }
 
     .tech-tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5em;
-      padding: 0 1.25em 1.25em 1.25em;
-      margin-top: 0.5em;
+      gap: 0.4em;
+      margin-top: auto;
     }
 
     .tech-tag {
       display: inline-block;
-      padding: 0.35em 0.75em;
-      font-size: 0.75rem;
+      padding: 0.3em 0.65em;
+      font-size: 0.7rem;
       font-family: "Raleway", Helvetica, sans-serif;
-      background-color: #f5f5f5;
-      color: #666666;
+      background-color: _palette(bg-alt);
+      color: _palette(fg);
       border-radius: 4px;
-      border: 1px solid #e0e0e0;
+      border: 1px solid _palette(border);
       white-space: nowrap;
-      transition: all 0.2s ease;
 
-      &:hover {
-        opacity: 0.8;
-        color: #4f4f4f;
+      &.tech-tag-more {
+        color: _palette(fg-light);
+        background: none;
+        border-style: dashed;
       }
-    }
-  }
-
-  @media (max-width: 480px) {
-    .description {
-      position: relative;
-      padding: 0;
     }
   }
 }
 
-.mini-post {
-  @include vendor("display", "flex");
-  @include vendor("flex-direction", "column");
-  background: _palette(bg);
-  border: solid 1px _palette(border);
-  margin: 0 0 _size(element-margin);
-
-  .image {
-    overflow: hidden;
-    width: 100%;
-
-    img {
-      @include vendor(
-        "transition",
-        "transform #{_duration(transition)} ease-out"
-      );
-      width: 100%;
-    }
-
-    &:hover {
-      img {
-        @include vendor("transform", "scale(0.98)");
-      }
-    }
-  }
-
-  header {
-    z-index: 2;
-    @include padding(1.25em, 1.25em, (0, 3em, 0, 0));
-    min-height: 4em;
-    position: relative;
-    @include vendor("flex-grow", "1");
-
-    h3 {
-      font-size: 0.7em;
-    }
-
-    .published {
-      display: block;
-      font-family: _font(family-heading);
-      font-size: 0.6em;
-      font-weight: _font(weight-heading);
-      letter-spacing: _font(kerning-heading);
-      margin: -0.625em 0 (_size(element-margin) * 0.85) 0;
-      text-transform: uppercase;
-    }
-
-    .author {
-      position: absolute;
-      right: 2em;
-      top: 2em;
-    }
-  }
-}
-
-.mini-posts {
-  margin: 0 0 _size(element-margin);
-  @include breakpoint(large) {
-    @include vendor("display", "flex");
-    @include vendor("flex-wrap", "wrap");
-    width: calc(100% + #{_size(element-margin)});
-
-    > * {
-      margin: _size(element-margin) _size(element-margin) 0 0;
-      width: calc(50% - #{_size(element-margin)});
-    }
-
-    > :nth-child(-n + 2) {
-      margin-top: 0;
-    }
-  }
-  @include breakpoint(xsmall) {
-    display: block;
-    width: 100%;
-
-    > * {
-      margin: 0 0 _size(element-margin);
-      width: 100%;
-    }
+@include breakpoint(small) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25em;
   }
 }

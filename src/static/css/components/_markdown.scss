@@ -10,3 +10,37 @@
     margin-top: 3em;
   }
 }
+
+// Project detail pages (/projects/:slug)
+
+.markdown-content {
+  font-size: 0.98em;
+
+  p {
+    margin: 0 0 1em 0;
+  }
+
+  h1 {
+    margin-top: 2em;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 1.25em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 6px;
+    border: solid 1px _palette(border);
+  }
+
+  .math-block {
+    overflow-x: auto;
+    margin: 1.5em 0;
+    text-align: center;
+  }
+}
