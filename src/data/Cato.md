@@ -1,10 +1,10 @@
 # The Backstory
 
-I built Cato during an internship after seeing the same bottleneck play out over and over: engineers debugging a complex internal developer tool had their answers scattered across two-plus years of support tickets, 1,000+ internal wiki pages, and chat history, with no way to search across all of it at once. That meant multi-day SLAs on questions that had usually already been answered somewhere — the knowledge existed, it just wasn't reachable, and I wanted to close that gap.
+I built Cato during an internship after seeing the same bottleneck play out over and over: engineers debugging a complex internal developer tool had their answers scattered across two-plus years of support tickets, 1,000+ internal wiki pages, and chat history, with no way to search across all of it at once. That meant multi-day SLAs on questions that had usually already been answered somewhere. The knowledge existed, it just wasn't reachable, and I wanted to close that gap.
 
 # Technical Details
 
-Cato runs retrieval in two stages instead of a single embedding-similarity lookup. A fine-tuned bi-encoder first pulls a broad set of semantically similar candidates from the consolidated corpus, optimizing for recall since it only needs the right answer to be *somewhere* in the set. A domain-tuned cross-encoder then re-ranks those candidates by jointly encoding the question and each candidate together — far more accurate than comparing independent embeddings, but too slow to run over the whole corpus directly.
+Cato runs retrieval in two stages instead of a single embedding-similarity lookup. A fine-tuned bi-encoder first pulls a broad set of semantically similar candidates from the consolidated corpus, optimizing for recall since it only needs the right answer to be *somewhere* in the set. A domain-tuned cross-encoder then re-ranks those candidates by jointly encoding the question and each candidate together, which is far more accurate than comparing independent embeddings, but too slow to run over the whole corpus directly.
 
 Cheap broad recall followed by expensive precise re-ranking on a shortlist is what keeps end-to-end response time under 20 seconds despite the corpus size. In production, Cato resolves roughly 50-60% of weekly developer questions without a human stepping in, while harder or ambiguous questions still route to a person instead of getting a confidently wrong answer.
 

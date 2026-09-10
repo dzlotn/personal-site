@@ -4,7 +4,7 @@ I took this on through Cornell Data Strategy because it was a real client with a
 
 # Technical Details
 
-The research compared sales in tariff-exposed and non-exposed categories with difference-in-differences, cross-checked against a more conservative machine-learning causal estimate, and separately modeled a no-tariff counterfactual baseline. The three methods didn't fully agree, which was itself the finding — a small retailer's sales data is noisy enough that a rigorous estimate can look large under one method and uncertain under another.
+The research compared sales in tariff-exposed and non-exposed categories with difference-in-differences, cross-checked against a more conservative machine-learning causal estimate, and separately modeled a no-tariff counterfactual baseline. The three methods didn't fully agree, which was itself the finding: a small retailer's sales data is noisy enough that a rigorous estimate can look large under one method and uncertain under another.
 
 The deployed tool is a Django app: upload a sales history, pick a real or hypothetical tariff date, and get a day-by-day forecast comparing a tariff-free baseline against a tariff-impacted line, with dollar-amount estimates and confidence intervals. The forecasting engine is a seasonal time-series model fit directly on the upload, and it reports real accuracy metrics alongside every forecast rather than presenting it as ground truth.
 

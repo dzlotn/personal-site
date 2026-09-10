@@ -4,11 +4,11 @@ After taking CS 3110 (Cornell's functional programming course), I wanted to ceme
 
 # Technical Details
 
-A handful of questions about risk tolerance, goals, experience, and time horizon convert into a single quantitative risk score, which sets individualized targets for volatility, risk-adjusted return, and acceptable drawdown — a conservative investor and an aggressive one get genuinely different thresholds, not just a different label. Every stock is scored against those targets using standard financial metrics computed directly from raw daily price data, and every recommendation comes back with a plain-language explanation of exactly why it matched.
+A handful of questions about risk tolerance, goals, experience, and time horizon convert into a single quantitative risk score, which sets individualized targets for volatility, risk-adjusted return, and acceptable drawdown. A conservative investor and an aggressive one get genuinely different thresholds, not just a different label. Every stock is scored against those targets using standard financial metrics computed directly from raw daily price data, and every recommendation comes back with a plain-language explanation of exactly why it matched.
 
-Getting reliable market data was its own problem: the API has a strict rate limit, so refreshing a stock universe means throttling requests, and a bad ticker doesn't return a clean error — it returns a normal-looking response with an error message buried inside it that has to be checked for explicitly before it's trusted.
+Getting reliable market data was its own problem: the API has a strict rate limit, so refreshing a stock universe means throttling requests, and a bad ticker doesn't return a clean error; it returns a normal-looking response with an error message buried inside it that has to be checked for explicitly before it's trusted.
 
-OptiFolio ships both a command-line questionnaire and a full graphical interface, and both are powered by the exact same optimization engine. Rather than linking the GUI library and the async I/O library into one binary — which invites a subtle class of deadlock — the GUI runs as its own separate process, collects the same answers, and hands them back to the same scoring engine the pure command-line path uses.
+OptiFolio ships both a command-line questionnaire and a full graphical interface, and both are powered by the exact same optimization engine. Rather than linking the GUI library and the async I/O library into one binary (which invites a subtle class of deadlock), the GUI runs as its own separate process, collects the same answers, and hands them back to the same scoring engine the pure command-line path uses.
 
 # Key Features
 

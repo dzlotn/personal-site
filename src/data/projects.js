@@ -15,7 +15,7 @@ const data = [
     title: 'CausticGuard',
     subtitle:
       'Motion-Adaptive Caustics Suppression for Underwater Computer Vision',
-    link: '',
+    link: 'https://github.com/dzlotn/CausticGuard',
     image: '/images/projects/caustic.png',
     imageFit: 'contain',
     date: '2026-05-01',

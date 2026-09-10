@@ -1,10 +1,10 @@
 # The Backstory
 
-I wanted a project that went all the way from raw sensor hardware to a real signal-processing pipeline to a usable web app, on a problem that actually mattered. Parkinson's tremor is normally assessed by a doctor watching a patient for a few minutes during a clinic visit — a single subjective snapshot instead of a continuous record of how a tremor behaves throughout the day. TremorTrackr is a wrist-worn sensor, built with a four-person team of software and biomedical engineers, that replaces that snapshot with continuous, quantified data a patient or doctor can actually track over time.
+I wanted a project that went all the way from raw sensor hardware to a real signal-processing pipeline to a usable web app, on a problem that actually mattered. Parkinson's tremor is normally assessed by a doctor watching a patient for a few minutes during a clinic visit: a single subjective snapshot instead of a continuous record of how a tremor behaves throughout the day. TremorTrackr is a wrist-worn sensor, built with a four-person team of software and biomedical engineers, that replaces that snapshot with continuous, quantified data a patient or doctor can actually track over time.
 
 # Technical Details
 
-The wearable combines a motion sensor and a muscle-activity (EMG) sensor on the wrist, since neither alone tells the full story — motion captures the tremor's mechanical effect directly, while EMG picks up the underlying muscle activity as a noisier corroborating signal.
+The wearable combines a motion sensor and a muscle-activity (EMG) sensor on the wrist, since neither alone tells the full story: motion captures the tremor's mechanical effect directly, while EMG picks up the underlying muscle activity as a noisier corroborating signal.
 
 Data streams wirelessly to a server, which filters out noise and voluntary movement, then applies frequency-domain analysis to extract a precise tremor frequency and power reading, fusing the two channels into one result weighted toward whichever is measuring the tremor more directly.
 

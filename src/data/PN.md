@@ -1,6 +1,6 @@
 # The Backstory
 
-Working at Cornell Data Strategy, I kept seeing the same pattern: trucking and logistics companies routing loads on gut feel, then absorbing the cost when a storm or a jam showed up hours later. I built NexusRTS with Ahmed Abdulla and Sourabh Velaga to replace that guesswork — scoring candidate routes on real-time weather, forecasted traffic, and fuel-stop access, then estimating the actual dollar cost of each option.
+Working at Cornell Data Strategy, I kept seeing the same pattern: trucking and logistics companies routing loads on gut feel, then absorbing the cost when a storm or a jam showed up hours later. I built NexusRTS with Ahmed Abdulla and Sourabh Velaga to replace that guesswork: it scores candidate routes on real-time weather, forecasted traffic, and fuel-stop access, then estimates the actual dollar cost of each option.
 
 # Technical Details
 
@@ -8,7 +8,7 @@ Routes come from a truck-specific routing API carrying the load's real height, w
 
 Traffic scoring is a forecast, not a lookup: every sensor station has its own trained time-series model, refit against recent history and projected forward to the truck's actual arrival time, then normalized by lane count so a busy six-lane highway and a busy two-lane road aren't scored equally congested.
 
-Cost is real too — fuel burn modeled against cargo weight, multiplied by live diesel pricing from a government API. When cost matters most to the user, routes that are dramatically pricier than the alternatives get actively penalized rather than just sorted last.
+Cost is real too: fuel burn modeled against cargo weight, multiplied by live diesel pricing from a government API. When cost matters most to the user, routes that are dramatically pricier than the alternatives get actively penalized rather than just sorted last.
 
 # Key Features
 

@@ -10,7 +10,7 @@ Vorticity confinement re-injects the small-scale rotational energy the numerical
 
 ![Downstream turbulence cascading off multiple obstacles into smaller eddies](/images/projects/meander-vortexstreet.jpg)
 
-A material system sits on top of the fluid dynamics — every cell is Fluid, Solid, or erodible Terrain. Fast flow erodes terrain into sediment, which redeposits wherever the water slows down, so a painted sand dam breaches and channels migrate over time. Rendering composites the simulation into a water-like look, with a fake sun-lit glint and foam driven by vorticity rather than raw speed, so turbulence reads as turbulence instead of every fast patch of water turning white.
+A material system sits on top of the fluid dynamics: every cell is Fluid, Solid, or erodible Terrain. Fast flow erodes terrain into sediment, which redeposits wherever the water slows down, so a painted sand dam breaches and channels migrate over time. Rendering composites the simulation into a water-like look, with a fake sun-lit glint and foam driven by vorticity rather than raw speed, so turbulence reads as turbulence instead of every fast patch of water turning white.
 
 # Key Features
 
