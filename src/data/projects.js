@@ -7,7 +7,7 @@ const data = [
     link: '',
     image: '/images/projects/meander.jpg',
     date: '2026-09-09',
-    desc: 'Meander is a real-time fluid simulator that solves the Navier-Stokes equations directly on the GPU',
+    desc: 'Meander is a real-time fluid simulator that computes the Navier-Stokes equations directly on the GPU',
     techs: ['C++', 'OpenGL', 'Claude', 'Codex', 'ImGui', 'Ninja'],
   },
   {

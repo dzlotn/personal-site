@@ -1,6 +1,6 @@
 # The Backstory
 
-Working at Cornell Data Strategy, I kept seeing the same pattern: trucking and logistics companies routing loads on gut feel, then absorbing the cost when a storm or a jam showed up hours later. I built NexusRTS with Ahmed Abdulla and Sourabh Velaga to replace that guesswork: it scores candidate routes on real-time weather, forecasted traffic, and fuel-stop access, then estimates the actual dollar cost of each option.
+A trucking company came to Cornell Data Strategy with an unusual ask: they didn't want to buy existing routing software, they wanted one built for them instead. I built NexusRTS with Ahmed Abdulla and Sourabh Velaga to do exactly that: it scores candidate routes on real-time weather, forecasted traffic, and fuel-stop access, then estimates the actual dollar cost of each option.
 
 # Technical Details
 
