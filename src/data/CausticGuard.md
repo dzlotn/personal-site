@@ -64,7 +64,7 @@ Together, these changes roughly doubled throughput while keeping RGB, depth, nor
 * _Producer-Consumer Vision Architecture_: Decouples camera capture from YOLO inference across two processes with a lock-free triple buffer
 
 # Project Link:
-[GitHub](https://github.com/dzlotn/CausticGuard)
+[GitHub](https://github.com/dzlotn/CausticGuard) | [Article](https://medium.com/@cuauv.cornell/from-caustics-to-cuda-engineering-real-time-vision-underwater-411544f7958d)
 
 # Technologies Used:
 C++, CUDA, Python, PyTorch, OpenCV, TensorRT, ZED Camera SDK, Kalman Filtering, Shared Memory (SHM) IPC, Temporal Smoothing
