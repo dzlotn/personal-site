@@ -5,6 +5,7 @@ In my free time, I love trying new things, working out, playing ultimate frisbee
 
 # **News**
 **2026**
+- My paper on diffusion language models with the [Relax ML Lab](https://relax-ml.cs.cornell.edu/), *Empowering Masked Diffusion Models to Self-Correct with Leave-One-Out Transformers*, was accepted to [NeurIPS 2026](https://neurips.cc/)
 - Promoted to Technology Vice President for [Cornell Data Strategy](https://cornelldatastrategy.com/)
 - Completed a Software Engineering internship at [Morgan Stanley](https://www.morganstanley.com/), working on agenticizing a system used to maintain and create all Wealth Management accounts
 - Joined the [Relax ML Lab](https://relax-ml.cs.cornell.edu/), doing research on large language diffusion models
