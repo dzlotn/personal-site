@@ -97,6 +97,7 @@ const render = (rows) => {
 <style>
   :root{--bg:#fafafa;--fg:#222;--muted:#666;--line:#e3e3e3;--card:#fff;--accent:#2e6be6}
   @media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#eee;--muted:#999;--line:#2c2c2c;--card:#1c1c1c;--accent:#6c9bff}}
+  *{box-sizing:border-box} .grid>section{min-width:0}
   body{margin:0;padding:16px;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,sans-serif}
   h1{margin:0 0 4px} h2{font-size:15px;margin:0 0 8px}
   .muted{color:var(--muted)} .kpis{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
@@ -129,8 +130,9 @@ ${table('Recent pageviews (ET)', ['Time', 'Page', 'Came from', 'Location', 'Read
 <script>
   const pins = ${JSON.stringify([...pins.values()]).replace(/</g, '\\u003c')};
   const map = L.map('map', { worldCopyJump: true }).setView([30, -40], 2);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 18,
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 19,
   }).addTo(map);
   const max = Math.max(1, ...pins.map((p) => p.n));
   pins.forEach((p) => {
