@@ -22,7 +22,7 @@ const SideBar = () => {
       {!isMobile && (
         <section id="intro">
           <div className="logo">
-            <img src={`${PUBLIC_URL}/images/file.jpg`} alt="" />
+            <img src={`${PUBLIC_URL}/images/daniel-zlotnick.jpg`} alt="Daniel Zlotnick" />
           </div>
           <header>
             <h2>Daniel Zlotnick</h2>

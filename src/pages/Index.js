@@ -27,13 +27,12 @@ const Index = () => {
 
   return (
     <Main
-      title="About"
-      description="Learn about Daniel Zlotnick"
+      description="Daniel Zlotnick is a Cornell Engineering student pursuing a B.S. and M.Eng. in Computer Science. Projects, research, and contact info."
     >
       {isMobile && (
         <section id="intro" style={{ marginBottom: '2em' }}>
           <div className="logo">
-            <img src={`${PUBLIC_URL}/images/file.jpg`} alt="" />
+            <img src={`${PUBLIC_URL}/images/daniel-zlotnick.jpg`} alt="Daniel Zlotnick" />
           </div>
           <header>
             <h2>Daniel Zlotnick</h2>
