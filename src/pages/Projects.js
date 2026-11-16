@@ -7,7 +7,7 @@ import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
 const Projects = () => (
-  <Main title="Projects" description="Learn about Daniel Zlotnick's projects.">
+  <Main title="Projects" description="Software, systems, and research projects by Daniel Zlotnick, including GPU simulation, computer vision, search, and ML tools.">
     <article className="post" id="projects">
       <header>
         <div className="title">

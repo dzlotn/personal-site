@@ -18,7 +18,10 @@ const OptiFolio = () => {
   }, []);
 
   return (
-    <Main title="OptiFolio" description="Learn about OptiFolio">
+    <Main
+      title="OptiFolio"
+      description="OptiFolio is an OCaml portfolio optimizer that analyzes investments and recommends stocks based on risk profile. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="optifolio">
         <header>
           <div className="title">

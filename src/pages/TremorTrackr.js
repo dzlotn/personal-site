@@ -18,7 +18,10 @@ const About = () => {
   }, []); // Added dependency array to avoid infinite loop
 
   return (
-    <Main title="About" description="Learn about Daniel Zlotnick">
+    <Main
+      title="TremorTrackr"
+      description="TremorTrackr is a wearable sensor that identifies and monitors tremors in patients with Parkinson's disease. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="about">
         <header>
           <div className="title">

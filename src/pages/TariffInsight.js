@@ -18,7 +18,10 @@ const TariffInsight = () => {
   }, []);
 
   return (
-    <Main title="TariffInsight" description="Learn about TariffInsight">
+    <Main
+      title="TariffInsight"
+      description="TariffInsight forecasts the financial impact of tariffs on sales using machine learning and time series analysis. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="tariffinsight">
         <header>
           <div className="title">

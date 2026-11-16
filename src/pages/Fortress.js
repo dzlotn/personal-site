@@ -17,7 +17,10 @@ const About = () => {
   }, []); // Added dependency array to avoid infinite loop
 
   return (
-    <Main title="About" description="Learn about Daniel Zlotnick">
+    <Main
+      title="Fortress"
+      description="Fortress is a Python and Java suite for generating, analyzing, and securely storing passwords. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="about">
         <header>
           <div className="title">

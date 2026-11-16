@@ -18,7 +18,10 @@ const Meander = () => {
   }, []);
 
   return (
-    <Main title="Meander" description="Learn about Meander">
+    <Main
+      title="Meander"
+      description="Meander is a real-time GPU fluid simulator that solves the Navier-Stokes equations directly on the GPU. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="meander">
         <header>
           <div className="title">

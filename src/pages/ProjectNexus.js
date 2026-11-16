@@ -17,7 +17,10 @@ const About = () => {
   }, []); // Added dependency array to avoid infinite loop
 
   return (
-    <Main title="About" description="Learn about Daniel Zlotnick">
+    <Main
+      title="NexusRTS"
+      description="NexusRTS is a real-time trucking tool that predicts traffic slowdowns, optimizes routes, and estimates costs. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="about">
         <header>
           <div className="title">

@@ -17,7 +17,10 @@ const About = () => {
   }, []); // Added dependency array to avoid infinite loop
 
   return (
-    <Main title="About" description="Learn about Daniel Zlotnick">
+    <Main
+      title="CampusQuest"
+      description="CampusQuest maps where a high school's seniors go to college, with geographic trends, popular majors, and acceptance insights. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="about">
         <header>
           <div className="title">

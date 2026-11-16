@@ -18,7 +18,10 @@ const Cato = () => {
   }, []);
 
   return (
-    <Main title="Cato" description="Learn about Cato">
+    <Main
+      title="Cato"
+      description="Cato is a semantic search engine built from scratch in Java for retrieving answers from documentation and service logs. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="cato">
         <header>
           <div className="title">

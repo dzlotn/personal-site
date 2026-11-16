@@ -20,7 +20,10 @@ const CausticGuard = () => {
   }, []);
 
   return (
-    <Main title="CausticGuard" description="Learn about CausticGuard">
+    <Main
+      title="CausticGuard"
+      description="CausticGuard is a CUDA-accelerated, motion-adaptive caustics suppression system for underwater computer vision. A project by Daniel Zlotnick."
+    >
       <article className="post markdown" id="causticguard">
         <header>
           <div className="title">
