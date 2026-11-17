@@ -1,6 +1,18 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    slug: 'LOOT',
+    title: 'LOOT',
+    subtitle:
+      'Self-correcting diffusion language models with Leave-One-Out Transformers (NeurIPS 2026)',
+    link: 'https://arxiv.org/abs/2611.19127',
+    image: '/images/projects/loot.png',
+    imageFit: 'contain',
+    date: '2026-11-14',
+    desc: 'LOOT is a Leave-One-Out Transformer that lets masked diffusion language models revise their own tokens, matching ReMDM quality with 8× fewer sampling steps',
+    techs: ['Python', 'PyTorch', 'FlashAttention', 'Transformers', 'Diffusion'],
+  },
+  {
     slug: 'Meander',
     title: 'Meander',
     subtitle: 'A real-time, interactive GPU fluid simulator',

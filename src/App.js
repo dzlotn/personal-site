@@ -24,6 +24,7 @@ const Cato = lazy(() => import('./pages/Cato'));
 const CausticGuard = lazy(() => import('./pages/CausticGuard'));
 const TariffInsight = lazy(() => import('./pages/TariffInsight'));
 const Meander = lazy(() => import('./pages/Meander'));
+const LOOT = lazy(() => import('./pages/LOOT'));
 
 // const Stats = lazy(() => import('./pages/Stats'));
 
@@ -43,6 +44,7 @@ const App = () => (
         <Route path="/projects/CausticGuard" element={<CausticGuard />} />
         <Route path="/projects/TariffInsight" element={<TariffInsight />} />
         <Route path="/projects/Meander" element={<Meander />} />
+        <Route path="/projects/LOOT" element={<LOOT />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
